@@ -17,3 +17,14 @@ In firewall module, functions required to implement security policies are define
 
 ### Switch Module
 It is a basic MAC learning switch that frequently send packet_in messages to controller to get neccessary action for source-destination MACs.
+
+## Prerequisite
+1) Ryu Framework
+2) OpenFlow switch
+
+For Ryu Installation click [here](https://osrg.github.io/ryu-book/en/html/installation_guide.html). As given in Ryu installation guide SDN environment can be created using either Mininet Emulator or Open vSwitch application on linux OS. It is also possible to create SDN environment in GNS3 using multilayer switch appliances - [Open vSwitch](http://docs.gns3.com/appliances/openvswitch.html) and/or [Open vSwitch Management](http://docs.gns3.com/appliances/openvswitch-management.html).
+
+## Useful links for reference
+* [Ryu Framework](https://osrg.github.io/ryu-book/en/Ryubook.pdf)
+* [Ryu Documentation](https://ryu.readthedocs.io/en/latest/getting_started.html)
+* [Open vSwitch commands](http://www.openvswitch.org/support/dist-docs/)
